@@ -1,4 +1,4 @@
-# Proyecto de Gestión de Tareas
+# Proyecto de Gestion de Tareas
 
 Descripción
 Este proyecto es una aplicación web de gestión de tareas desarrollada como parte de un reto de desarrollo para el cargo de "Técnico de Desarrollo", la aplicación permite a los usuarios registrarse, iniciar sesión, crear, editar y eliminar tareas, asignar tareas a otros usuarios, establecer fechas límite y prioridades para las tareas, y ver un resumen de las tareas pendientes y completadas.
