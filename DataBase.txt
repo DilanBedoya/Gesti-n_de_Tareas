@@ -1,0 +1,19 @@
+--TABLA DE USUARIOS
+CREATE TABLE Usuarios (
+    UsuarioID SERIAL PRIMARY KEY,
+    NombreUsuario VARCHAR(255) NOT NULL,
+    Pass VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) UNIQUE NOT NULL
+);
+
+
+CREATE TABLE Tareas (
+    TareaID SERIAL PRIMARY KEY,
+    Titulo VARCHAR(255) NOT NULL,
+    Descripcion TEXT,
+    FechaCreacion TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    FechaLimite DATE,
+    Prioridad VARCHAR(10) CHECK (Prioridad IN ('Baja', 'Media', 'Alta')) DEFAULT 'Baja',
+    Estado VARCHAR(20) CHECK (Estado IN ('Pendiente', 'Completada')) DEFAULT 'Pendiente',
+    UsuarioID INT REFERENCES Usuarios(UsuarioID)
+);
