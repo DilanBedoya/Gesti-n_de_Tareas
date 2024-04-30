@@ -69,7 +69,7 @@ APLICACION WEB
 
 * 1.- Los usuarios podrán podrán registrarse y automáticamente se guardarán los registros en la base de datos, tambíen habrá un login para aquellos que ya se hayan registrado.
 * 2.- Una vez Logueado podrá crear, visualizar, editar y asignar tareas a otros usuarios.
-* 3.- DIFRUTAR DE LA APLICACIÓN!
+* 3.- DIFRUTAR DE LA APLICACIÓN!!
 
 **Visualización de la Aplicación**
 ![image](https://github.com/DilanBedoya/Gesti-n_de_Tareas/assets/133397877/e536ba37-d732-4145-a5b6-e42b5a5eafda)
